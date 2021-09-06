@@ -21,7 +21,10 @@ $("#intro").YTPlayer({
     mute:true, 
     showControls: false,
     playOnlyIfVisible: true,
-    useOnMobile: true,
+    realfullscreen: false,
+    anchor: 'center,center',
+    ratio:  '2/3',
+
 });
 
 //포폴동영상제어
