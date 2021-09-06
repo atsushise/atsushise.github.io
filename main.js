@@ -15,27 +15,23 @@ $("#MyPortfolio").fullpage({
 });
 
 $("#intro").YTPlayer({
-    
+    videoURL:'iJ6WIfeS3_c',
     containment:'.m01',
     autoPlay:true,
     mute:true, 
     showControls: false,
     playOnlyIfVisible: true,
-    realfullscreen: false,
-    anchor: 'center,center',
-    ratio:  '2/3',
+    useOnMobile: true,
 });
 
-
+//포폴동영상제어
 $("#Portfolio01").YTPlayer({
     containment:'.Portfolio01',
     autoPlay:true,
     mute:true, 
     showControls: false,
     playOnlyIfVisible: true,
-    realfullscreen: false,
-    anchor: 'center,center',
-    ratio:  '2/3',
+    optimizeDisplay:false,
 });
 
 $(".m02 .xi-play").on("click", function(){
@@ -53,9 +49,7 @@ $("#Portfolio02").YTPlayer({
     mute:true, 
     showControls: false,
     playOnlyIfVisible: true,
-    realfullscreen: false,
-    anchor: 'center,center',
-    ratio:  '2/3',
+    optimizeDisplay:false,
 });
 
 $(".m03 .xi-play").on("click", function(){
@@ -73,9 +67,7 @@ $("#Portfolio03").YTPlayer({
     mute:true, 
     showControls: false,
     playOnlyIfVisible: true,
-    realfullscreen: false,
-    anchor: 'center,center',
-    ratio:  '2/3',
+    optimizeDisplay:false,
 });
 
 $(".m04 .xi-play").on("click", function(){
@@ -93,10 +85,8 @@ $("#Portfolio04").YTPlayer({
     mute:true, 
     showControls: false,
     playOnlyIfVisible: true,
-    realfullscreen: false,
-    anchor: 'center,center',
-    ratio:  '2/3',
-});
+    optimizeDisplay:false,
+});    
 
 $(".m05 .xi-play").on("click", function(){
     $("#Portfolio04").YTPPlay();
@@ -139,6 +129,6 @@ $("#header i,.m09 img").on("click", function(){
 $("#full i,#full a ").on("click", function(){
     $("#full").removeClass("on")
 });
-//////////////////////
+//////////////////////end////////
 
 });
