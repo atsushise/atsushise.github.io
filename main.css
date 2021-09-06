@@ -56,8 +56,8 @@ top:0;left:0;animation:bban 0.5s infinite;z-index:-1;}
     .m01 h2 {text-align:center;font-size:40px;font-family: 'Allison', cursive;letter-spacing:0.025em;margin-bottom:20px;
         transform:translateY(100px);opacity:0;padding:0 15px;}
     .m01 p {text-align:center;font-size:12px;letter-spacing:0.025em;line-height:1.4;transform:translateY(100px);opacity:0;padding:0 15px;}
-    }   
     .m01 #wrapper_intro {opacity:0 !important;}
+}
 
 .m02 {background:#fff url(./assets/img/bg03.png)}
 .m02 .container {display:flex;width:1600px;margin:0 auto;}
