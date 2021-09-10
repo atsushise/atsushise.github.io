@@ -302,9 +302,9 @@ right:35px;opacity:0;transition:0.5s;}
 
 .m09 {position:relative;background:#fff url(./assets/img/bg04.png);padding:50px 0;}
 .m09 .container {display:flex;justify-content:space-between;width:1400px;margin:0 auto;}
-.m09 .container figure {width:150px;border-radius:50%;overflow:hidden;border:3px solid #333;}
+.m09 .container figure {width:150px;border-radius:50%;overflow:hidden;border:3px solid #333;margin-left:auto;}
 .m09 .container figure img {width:100%;cursor:pointer;}
-.m09 .container h2 {font-size:30px;font-weight:300;margin-bottom:20px;font-size:60px;font-family: 'Allison', cursive;}
+.m09 .container h2 {font-size:30px;font-weight:300;margin-bottom:20px;font-size:60px;font-family: 'Allison', cursive;margin-right:50px;}
 .m09 .container p {font-size:14px;font-weight:100;}
 
 
